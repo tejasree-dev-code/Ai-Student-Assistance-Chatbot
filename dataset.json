@@ -1,0 +1,311 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hey there",
+        "Hi there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you",
+        "How are you doing",
+        "Are you there",
+        "Can you help me",
+        "I need help",
+        "I have a question",
+        "Hello assistant",
+        "Hi assistant",
+        "Hey assistant",
+        "Can I ask something",
+        "Can I ask you a question",
+        "I want to ask something"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi! What would you like to know?",
+        "Hello! I am here to help you with your course-related questions."
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are available",
+        "Which courses are available",
+        "What courses do you offer",
+        "Which courses do you offer",
+        "Tell me about the courses",
+        "What courses can I join",
+        "What can I learn here",
+        "What programs are available",
+        "What training programs are available",
+        "What subjects do you teach",
+        "Which courses can I take",
+        "Show me the courses",
+        "List the courses",
+        "Give me the course list",
+        "What are the available courses",
+        "What training do you provide",
+        "What courses can students join",
+        "Do you offer Python",
+        "Do you offer SQL",
+        "Do you offer web development"
+      ],
+      "responses": [
+        "We offer courses in Python, Java, SQL, Web Development and Data Science.",
+        "Our available courses include Python, Java, SQL, Web Development and Data Science."
+      ]
+    },
+
+    {
+      "tag": "course_info",
+      "patterns": [
+        "Tell me about the Python course",
+        "Tell me about the SQL course",
+        "Tell me about the Java course",
+        "Tell me about the web development course",
+        "Tell me about the data science course",
+        "What is the Python course",
+        "What is the SQL course",
+        "What is included in the course",
+        "What will I learn in the course",
+        "What topics are covered",
+        "What topics will I learn",
+        "What does the course teach",
+        "What skills will I learn",
+        "What is taught in the course",
+        "Can you explain the course",
+        "Give me course details",
+        "I want course details",
+        "What is included in the training",
+        "What do students learn",
+        "Tell me about the training"
+      ],
+      "responses": [
+        "Our courses provide practical training along with basic theory and projects.",
+        "The courses focus on concepts, practical learning and projects."
+      ]
+    },
+
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the course fee",
+        "How much does the course cost",
+        "Tell me the fees",
+        "What are the fees",
+        "How much should I pay",
+        "What is the price of the course",
+        "What is the course price",
+        "How much is the course",
+        "How much do I need to pay",
+        "What are the course charges",
+        "How expensive is the course",
+        "What is the cost of the course",
+        "Tell me the course price",
+        "I want to know the fee",
+        "How much money is required",
+        "What is the training fee",
+        "How much is the training",
+        "What is the fee for Python",
+        "What is the fee for SQL",
+        "Can you tell me the cost",
+        "Can you tell me the price",
+        "What do I have to pay",
+        "How much will the course be",
+        "What is the total course fee"
+      ],
+      "responses": [
+        "The course fee depends on the selected course. Please contact the institute for the current fee details.",
+        "Course fees vary depending on the course. Please contact the institute for the latest fee information."
+      ]
+    },
+
+    {
+      "tag": "registration",
+      "patterns": [
+        "How can I register",
+        "How do I register",
+        "Where can I register",
+        "How can I join",
+        "How do I join",
+        "How can I enroll",
+        "How do I enroll",
+        "I want to register",
+        "I want to enroll",
+        "I want to join the course",
+        "How can I take admission",
+        "How do I take admission",
+        "What is the registration process",
+        "What is the enrollment process",
+        "How can I apply",
+        "How do I apply for the course",
+        "Where can I apply",
+        "Can I register online",
+        "Can I enroll online",
+        "I want admission",
+        "Tell me how to register",
+        "Tell me how to enroll"
+      ],
+      "responses": [
+        "You can register by contacting the institute or visiting the registration section.",
+        "You can contact the institute for the registration and enrollment process."
+      ]
+    },
+
+    {
+      "tag": "duration",
+      "patterns": [
+        "How long is the course",
+        "What is the course duration",
+        "How many months is the course",
+        "How long will the course take",
+        "What is the duration",
+        "How many days is the course",
+        "How many weeks is the course",
+        "How long is the training",
+        "What is the training duration",
+        "How many months is the training",
+        "How long does training take",
+        "How much time does the course take",
+        "When will the course finish",
+        "How many months do I need to study",
+        "How long do I need to attend",
+        "Tell me the course duration",
+        "Tell me how long the course is",
+        "Is the course for three months",
+        "Is the course for six months",
+        "How many months is the program"
+      ],
+      "responses": [
+        "Course duration depends on the selected course. Please check the course details for more information.",
+        "The duration varies by course. Please contact the institute for the exact duration."
+      ]
+    },
+
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are the class timings",
+        "When are the classes",
+        "What time does the class start",
+        "Tell me the timings",
+        "When can I attend classes",
+        "What time are the classes",
+        "When does the course start",
+        "What are the batch timings",
+        "What time is the batch",
+        "When does the batch start",
+        "What time does training start",
+        "What are the training timings",
+        "Are there morning classes",
+        "Are there evening classes",
+        "Do you have weekend classes",
+        "What time are weekend classes",
+        "When can I attend training",
+        "Tell me about class schedule",
+        "What is the class schedule",
+        "What are the available batches"
+      ],
+      "responses": [
+        "Class timings depend on the course and batch. Please contact the institute for the available timings.",
+        "Batch timings vary by course. Please contact the institute for the current schedule."
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the institute",
+        "What is your location",
+        "Where are you located",
+        "How can I find the institute",
+        "Tell me the address",
+        "What is the institute address",
+        "Where is your office",
+        "Where is the training center",
+        "Where are the classes conducted",
+        "Where do classes happen",
+        "Give me the location",
+        "Can you give me the address",
+        "How do I reach the institute",
+        "How can I reach your center",
+        "Where is the training center located",
+        "What is the center location",
+        "Where can I attend classes",
+        "Tell me where the institute is",
+        "I need the institute location",
+        "Can you share the location"
+      ],
+      "responses": [
+        "Please contact the institute for the current address and location details.",
+        "You can contact the institute to get the latest location and address information."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you",
+        "Give me your contact details",
+        "How do I contact the institute",
+        "I need contact information",
+        "What is your phone number",
+        "Can I get your phone number",
+        "What is the contact number",
+        "Give me the contact number",
+        "How can I reach you",
+        "How can I speak to the institute",
+        "Can I call the institute",
+        "Where can I contact you",
+        "Give me your email",
+        "What is your email address",
+        "How can I contact support",
+        "Who should I contact",
+        "I need help contacting the institute",
+        "Can I contact you online",
+        "How do I get in touch",
+        "Tell me the contact details"
+      ],
+      "responses": [
+        "You can contact the institute through the official contact details.",
+        "Please use the institute's official phone number or email for further assistance."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "See you later",
+        "Talk to you later",
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "Okay thanks",
+        "Ok thank you",
+        "Thanks for helping",
+        "Thank you for the information",
+        "That is helpful",
+        "Got it thanks",
+        "Okay bye",
+        "Good night",
+        "Have a nice day",
+        "That's all",
+        "I am done"
+      ],
+      "responses": [
+        "You're welcome! Have a great day!",
+        "Glad I could help! Feel free to ask anytime.",
+        "Goodbye! Have a great day!"
+      ]
+    }
+  ]
+}
